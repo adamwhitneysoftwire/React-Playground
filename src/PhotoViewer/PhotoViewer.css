@@ -1,0 +1,21 @@
+.photo {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 95vw;
+    max-height: 95vh;
+}
+
+.photo h1 {
+    position: absolute;
+    bottom: 6px;
+    left: 24px;
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+img.black-and-white {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
